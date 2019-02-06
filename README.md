@@ -1,8 +1,8 @@
-Global Vals (version 1.0)
+Global Vals (version 1.1)
 =========================
 
 URL: https://github.com/charlesbaynham/globalvals
-(c) Charles Baynham 2018
+(c) Charles Baynham 2019
 
 License: LaTeX Project Public License 1.3c
 
@@ -20,4 +20,4 @@ value will output the text "??"
 
 
 The package is released 'as is' with no warranty under the LaTeX Project Public
-License, version 1.3.
+License, version 1.3c.

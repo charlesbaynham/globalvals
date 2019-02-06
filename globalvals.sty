@@ -19,11 +19,11 @@
 % Using \defVal twice will result in an error. Using \useVal for an undefined
 % value will output the text "??"
 %
-\makeatletter
+
 \NeedsTeXFormat{LaTeX2e}
 \def\@globalvalsPkgName{globalvals}
 \ProvidesPackage{\@globalvalsPkgName}
-  [2019/01/23 v1.0 Define and use global variables throughout a document, including before their definition]
+  [2019/02/06 v1.1 Define and use global variables throughout a document, including before their definition]
 
 
 
@@ -54,8 +54,6 @@
   \PackageInfo{\@globalvalsPkgName}{Defining new variable "#1" with value "#2"}%
 \fi%
 }
-
-\makeatother
 
 \endinput
 %%
