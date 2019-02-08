@@ -6,7 +6,7 @@ URL: https://github.com/charlesbaynham/globalvals
 
 License: LaTeX Project Public License 1.3c
 
-This package allow the user to declare a variable which can then be used
+This package allows the user to declare a variable which can then be used
 anywhere else in a document, including before it was declared. This is done
 by putting the definitions into the .aux files, therefore requiring two runs
 to get it right.

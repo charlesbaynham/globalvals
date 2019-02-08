@@ -15,7 +15,7 @@ Bug reports can be opened at\\%
 \maketitle
 
 \noindent
-The \textsf{globalvals} package allow the user to declare a variable which can then be used anywhere else in a document, including before it was declared. This can be useful in large projects, where value can be entered once and automatically updated throughout the document, without having to maintain a seperate file full of definitions. 
+The \textsf{globalvals} package allows the user to declare a variable which can then be used anywhere else in a document, including before it was declared. This can be useful in large projects, where values can be entered once and automatically updated throughout the document, without having to maintain a separate file full of definitions. 
 
 This is done by putting the definitions into the .aux files, therefore requiring two runs to get it right.
 
@@ -43,9 +43,9 @@ For example, you might call
 
 \meta{value}s will be expanded, so you can also embed macros within your variables, e.g.:
 \begin{quote}
-	|\defVal{fractional_stability}{\SI{10E-16}{\per\sqrt\second}}|
+	|\defVal{fractional_stability}{\SI{1E-16}{\per\sqrt\second}}|
 \end{quote}
-\defVal{fractional_stability}{\SI{10E-16}{\per\sqrt\second}}
+\defVal{fractional_stability}{\SI{1E-16}{\per\sqrt\second}}
 
 \section{Using a variable}
 
